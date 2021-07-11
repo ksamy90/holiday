@@ -23,7 +23,7 @@ const App = () => {
 
   const logout = useCallback(() => {
     setIsLoggedIn(false);
-  });
+  }, []);
 
   let routes;
 
